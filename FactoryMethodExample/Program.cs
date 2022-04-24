@@ -1,0 +1,3 @@
+﻿using FactoryMethodExample;
+
+ExecuteFactoryMethod.Exec();
