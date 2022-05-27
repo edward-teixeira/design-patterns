@@ -1,3 +1,5 @@
+## Fluent Interface Pattern
+
 ### Definition
 
 Fluent Interface are semantic facades. You put them on top of existing code to reduce syntactical noise and to more
