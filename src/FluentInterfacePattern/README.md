@@ -37,6 +37,7 @@ Interface.
 ### [Sample Code]
 
 The prerequisite is to write a class that allows:
+
 - Download to file/stream and upload from file/stream;
 - Files transfer between the local computer and Azure Blob Storage;
 - Asynchronous transfer, which is not imperative, but may be required later on.
@@ -71,6 +72,7 @@ var data = list.Where(e => e.Country == "USA")
                .ToList();
 
 ```
+
 The above code creates a List of Employee objects and stores certain employees (not shown in the code) in it. Then a
 LINQ query picks employees matching certain condition. Notice how various aspects of the LINQ query such as a WHERE
 condition and an ORDER BY clause are handled using method chaining. The terminating method ToList() ends the chain by
