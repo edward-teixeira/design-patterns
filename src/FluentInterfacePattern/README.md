@@ -75,12 +75,18 @@ condition and an ORDER BY clause are handled using method chaining. The terminat
 returning the final list of employees (after applying the previous conditions).
 
 ---
+
 Links:
+
 [Fluent Interface Pattern](https://www.codeproject.com/Articles/5326456/Fluent-Interface-Pattern-in-Csharp-With-Inheritanc)
+
 [Domain Specific Language DSL](https://www.jetbrains.com/mps/concepts/domain-specific-languages/)
+
 [Martin Fowler Fluent Interface](https://martinfowler.com/bliki/FluentInterface.html))
+
 [How to Design and Implement the Fluent Interface Pattern in C#](https://assist-software.net/blog/how-design-and-implement-fluent-interface-pattern-c)
+
 [Fluent Interface And Method Chaining In C# For Beginners](http://www.binaryintellect.net/articles/41e7744a-e2ca-49b9-bd36-76e81d0277ae.aspx)
 
----
 [Source](https://github.com/edward-teixeira/design-patterns/tree/master/src/FluentInterfacePattern)
+---
