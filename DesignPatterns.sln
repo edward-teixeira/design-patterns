@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderStructure", "src\gan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderExample", "src\gang-of-four\BuilderExample\BuilderExample.csproj", "{A26F716E-3797-4F37-A920-09675861D21D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentInterfaceExample", "FluentInterfaceExample\FluentInterfaceExample.csproj", "{0344A647-20BC-4F12-8B97-15FD46E5B69E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +44,10 @@ Global
 		{A26F716E-3797-4F37-A920-09675861D21D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A26F716E-3797-4F37-A920-09675861D21D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A26F716E-3797-4F37-A920-09675861D21D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0344A647-20BC-4F12-8B97-15FD46E5B69E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0344A647-20BC-4F12-8B97-15FD46E5B69E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0344A647-20BC-4F12-8B97-15FD46E5B69E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0344A647-20BC-4F12-8B97-15FD46E5B69E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
