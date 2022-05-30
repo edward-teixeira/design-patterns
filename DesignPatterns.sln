@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodStructural", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorStructural", "src\Gang_Of_Four_Patterns\DecoratorStructural\DecoratorStructural.csproj", "{0E760666-3D3F-4A7C-81E7-E3200E0FC517}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorExample", "src\Gang_Of_Four_Patterns\DecoratorExample\DecoratorExample.csproj", "{FBF02283-FBB1-440D-8337-382AE63D780C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +56,10 @@ Global
 		{0E760666-3D3F-4A7C-81E7-E3200E0FC517}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E760666-3D3F-4A7C-81E7-E3200E0FC517}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E760666-3D3F-4A7C-81E7-E3200E0FC517}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF02283-FBB1-440D-8337-382AE63D780C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF02283-FBB1-440D-8337-382AE63D780C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF02283-FBB1-440D-8337-382AE63D780C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF02283-FBB1-440D-8337-382AE63D780C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
