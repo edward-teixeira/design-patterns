@@ -117,7 +117,7 @@ classDiagram
 ```mermaid
 classDiagram
     direction LR
-    RulesEngine --* IRule: HasMany
+    RulesEngine --* IRule
     class IRule {
         <<interface>>
         +Evaluate(Context context)
