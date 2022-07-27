@@ -19,6 +19,7 @@ public record ProductB
     public void Show()
     {
         Console.WriteLine("ProductB Parts:");
+
         foreach (var part in _parts)
         {
             Console.WriteLine(part);

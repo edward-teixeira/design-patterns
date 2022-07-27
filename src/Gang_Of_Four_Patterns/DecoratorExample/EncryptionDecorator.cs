@@ -7,9 +7,7 @@ namespace DecoratorExample;
 /// </summary>
 public record EncryptionDecorator : DataSourceDecorator
 {
-    public EncryptionDecorator(DataSource dataSource) : base(dataSource)
-    {
-    }
+    public EncryptionDecorator(DataSource dataSource) : base(dataSource) { }
 
     public override void Write(string data)
     {

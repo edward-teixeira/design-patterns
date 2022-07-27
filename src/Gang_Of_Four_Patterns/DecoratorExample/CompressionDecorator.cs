@@ -7,9 +7,7 @@ namespace DecoratorExample;
 /// </summary>
 public record CompressionDecorator : DataSourceDecorator
 {
-    public CompressionDecorator(DataSource dataSource) : base(dataSource)
-    {
-    }
+    public CompressionDecorator(DataSource dataSource) : base(dataSource) { }
 
     public override void Write(string data)
     {

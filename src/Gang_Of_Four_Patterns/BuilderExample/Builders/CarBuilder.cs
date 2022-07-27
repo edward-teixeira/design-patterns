@@ -7,9 +7,7 @@ namespace BuilderExample.Builders;
 /// </summary>
 public class CarBuilder : VehicleBuilder
 {
-    public CarBuilder() : base(VehicleType.Car)
-    {
-    }
+    public CarBuilder() : base(VehicleType.Car) { }
 
     public override void BuildFrame()
     {

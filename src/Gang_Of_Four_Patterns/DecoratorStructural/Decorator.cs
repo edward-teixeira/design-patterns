@@ -9,11 +9,10 @@ namespace DecoratorStructural;
 /// </summary>
 
 #region ConcreteDecorators
+
 public class DecoratorA : BaseDecorator
 {
-    public DecoratorA(IComponent component) : base(component)
-    {
-    }
+    public DecoratorA(IComponent component) : base(component) { }
 
     public override void Execute()
     {
@@ -29,9 +28,7 @@ public class DecoratorA : BaseDecorator
 
 public class DecoratorB : BaseDecorator
 {
-    public DecoratorB(IComponent component) : base(component)
-    {
-    }
+    public DecoratorB(IComponent component) : base(component) { }
 
     public override void Execute()
     {
@@ -47,9 +44,7 @@ public class DecoratorB : BaseDecorator
 
 public class DecoratorC : BaseDecorator
 {
-    public DecoratorC(IComponent component) : base(component)
-    {
-    }
+    public DecoratorC(IComponent component) : base(component) { }
 
     public override void Execute()
     {
